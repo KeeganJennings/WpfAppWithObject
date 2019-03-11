@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAppWithObject;
+
 
 namespace WpfAppWithObject
 {
@@ -20,9 +22,31 @@ namespace WpfAppWithObject
     /// </summary>
     public partial class MainWindow : Window
     {
+        Dragon d;
         public MainWindow()
         {
             InitializeComponent();
+            d = new Dragon();
+            hordeTB.Text = "Horde: " + d.horde;
+            staminaTB.Text = "Stamina: " + d.stamina;
+        }
+
+        private void RaidBTN_Click(object sender, RoutedEventArgs e)
+        {
+            d.Raid();
+            UpdateTextBoxes();
+        }
+
+        private void RestBTN_Click(object sender, RoutedEventArgs e)
+        {
+            d.Rest();
+            UpdateTextBoxes();
+        }
+
+        private void UpdateTextBoxes()
+        {
+            hordeTB.Text = "Horde: " + d.horde;
+            staminaTB.Text = "Stamina: " + d.stamina;
         }
     }
 }

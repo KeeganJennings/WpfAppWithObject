@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="staminaTB" HorizontalAlignment="Left" Height="75" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="180" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="hordeTB" HorizontalAlignment="Left" Height="75" Margin="10,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="180" FontSize="24" TextAlignment="Center"/>
+        <Button x:Name="raidBTN" Content="Raid" HorizontalAlignment="Left" Margin="320,10,0,0" VerticalAlignment="Top" Width="435" Height="170" Click="RaidBTN_Click"/>
+        <Button x:Name="restBTN" Content="Rest" HorizontalAlignment="Left" Margin="320,242,0,0" VerticalAlignment="Top" Width="435" Height="170" Click="RestBTN_Click"/>
+
     </Grid>
 </Window>
