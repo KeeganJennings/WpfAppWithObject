@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWithObject", "WpfAppWithObject\WpfAppWithObject.csproj", "{80581DF7-0ECD-4C61-B3D8-347E5C33E0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55558A13-9ED0-4507-872B-90065079163A}"
+	ProjectSection(SolutionItems) = preProject
+		Dragon.cs = Dragon.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80581DF7-0ECD-4C61-B3D8-347E5C33E0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80581DF7-0ECD-4C61-B3D8-347E5C33E0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80581DF7-0ECD-4C61-B3D8-347E5C33E0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80581DF7-0ECD-4C61-B3D8-347E5C33E0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EEC981C-310C-47EF-AA8A-A4907C467DA1}
+	EndGlobalSection
+EndGlobal
